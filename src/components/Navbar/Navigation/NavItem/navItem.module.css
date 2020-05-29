@@ -1,0 +1,7 @@
+.navItem {
+  color: var(--primary-color);
+  cursor: pointer;
+  padding-right: 40px;
+  text-decoration: none;
+  transition: 0.5s color;
+}

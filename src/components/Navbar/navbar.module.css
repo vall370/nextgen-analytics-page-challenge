@@ -1,0 +1,8 @@
+.navbar {
+  grid-column: 1/6;
+  padding-left: 10%;
+  border-bottom: 2px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.navigation {
+
+
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation li {
+  float: right;
+}
+
+.navigation li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navigation li a.active {
+  background-color: #3786E1;
+}

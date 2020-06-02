@@ -39,8 +39,8 @@
  }
  
  @font-face {
-  src: url(/src/assets/fonts/Montserrat/Montserrat-Light.ttf);
-  font-family: Montserrat-Light;
+  src: url('/src/assets/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+  font-family: 'Montserrat-Light';
  }
  
  @font-face {

@@ -1,0 +1,25 @@
+.analyticsItem {
+  margin-left: 115px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.amount p,
+.amount h1 {
+  display: inline;
+}
+
+.amount p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 5px;
+}

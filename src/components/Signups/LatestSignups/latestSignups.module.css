@@ -1,0 +1,33 @@
+.latestSignups {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-background-color);
+  margin-top: 20px;
+}
+
+.latestSignupsHeader {
+  margin: 5px;
+  background-color: var(--main-background-color);
+}
+
+.latestSignupsHeader h1, td {
+  color: var(--secondary-text-color)
+}
+
+.latestSignupsHeader h1 {
+  font-weight: 400;
+  padding: 20px;
+}
+
+.name {
+  padding-left: 0.5rem;
+  min-width: 200px;
+}
+
+#individual {
+  border-left: 0.3rem solid var(--primary-color);
+}
+
+#company {
+  border-left: 4px solid var(--secondary-color);
+}

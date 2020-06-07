@@ -1,0 +1,35 @@
+.recharts-cartesian-axis { 
+  font-size: 0.8rem; 
+  font-weight: 600;
+}
+
+.recharts-label {
+  fill: white;
+  font-size: 3rem;
+}
+
+.recharts-surface {
+  background-color: var(--secondary-background-color);
+}
+
+.chart-container {
+  position: relative;
+  padding-top: 20px;
+  background-color: var(--main-background-color);
+}
+.chart-title {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  background: transparent;
+  margin-left: -100px;
+  top: 50px;
+  left: 50%;
+  z-index: 10;
+}
+
+.chart-title p {
+  color: var(--secondary-text-color);
+  font-weight: 600;
+  background: transparent;
+}

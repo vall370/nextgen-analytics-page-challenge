@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import stats from './components/common/stats'
 
 import Navbar from './components/Navbar'
 import Analytics from './components/Analytics'
@@ -9,6 +10,7 @@ import Graphs from './components/Graphs'
 import Signups from './components/Signups'
 
 const App = () => {
+
   return (
     <div className="App">
       <div className="container">
@@ -16,8 +18,8 @@ const App = () => {
         <Analytics />
         <Links />
         <Vertical />
-        <Graphs />
-        <Signups />
+        <Graphs stats={stats}/>
+        <Signups stats={stats}/>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@
 
 .userName,
 .dateTime,
-p {
+.userMenu p {
   background-color: transparent;
   color: white;
 }

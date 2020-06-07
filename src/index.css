@@ -10,16 +10,20 @@
   --primary-text-color: #cccccc;
   --secondary-text-color: #849fb4;
 
+  --active-link-color: #08a2ba;
+
   --primary-gradient: linear-gradient(
     90deg,
     rgb(78, 255, 207) 0%,
-    rgb(8, 164, 188) 100%
+    rgb(8, 162, 186) 100%
   );
   --secondary-gradient: linear-gradient(
     90deg,
     rgb(255, 86, 238) 0%,
     rgb(62, 87, 194) 100%
   );
+  
+  background-color: var(--main-background-color);
 }
 
 * {
@@ -27,7 +31,6 @@
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:   var(--main-background-color);
   color: var( --primary-text-color);
 }
 
@@ -38,4 +41,19 @@ h1 {
 
 p {
   font-size: 1.1rem;
+}
+
+a {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+table {
+  border-spacing: 1.3rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+td, th {
+  padding: 0.1rem;
 }

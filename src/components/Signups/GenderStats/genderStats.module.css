@@ -1,0 +1,37 @@
+.genderStats {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-background-color);
+  padding: 20px 30px;
+  margin-top: 20px;
+}
+.genderStats div {
+  background: transparent;
+}
+.amount { padding-right: 1rem;}
+
+.amount p{
+  color: var(--tertiary-color);
+}
+
+.byGender {
+  border-left: 0.3rem solid var(--primary-color);
+  padding-left: 10px;
+}
+
+.dropdown {
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.caret {
+  margin-left: 10px;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  
+  border-top: 8px solid var(--primary-text-color);
+}

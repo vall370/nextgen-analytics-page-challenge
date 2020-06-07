@@ -1,12 +1,8 @@
 .analytics {
-  grid-column: 1/6;
+  grid-column: 1/7;
   background-color: var(--secondary-background-color);
   padding-left: 10%;
   display: flex;
   justify-content: flex-start;
   padding-right: 10%;
 }
-/* 
-.itemContainer {
-  margin: 0 40px;
-} */

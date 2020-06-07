@@ -1,5 +1,5 @@
 .navbar {
-  grid-column: 1/6;
+  grid-column: 1/7;
   padding-left: 10%;
   border-bottom: 2px solid var(--primary-color);
   display: flex;

@@ -1,0 +1,14 @@
+.linkItemWrapper {
+  margin-right: 40px;
+  min-width: 160px;
+}
+
+.linkItem  {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.linkItem:hover, .active {
+  font-weight: 600;
+  color: var(--active-link-color);
+}

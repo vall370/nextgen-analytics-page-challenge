@@ -3,8 +3,8 @@
   height: 100vh;
 
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   display: grid;
 
-  grid-template: 110px 100px 100px 1fr 100px/ 10% 100px 1.3fr 0.7fr 10%;
+  grid-template: 110px 100px 100px 1fr 100px/ 10% 100px 1.1fr 0.9fr 10%;
 }

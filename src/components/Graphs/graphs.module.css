@@ -1,6 +1,5 @@
 .graphs {
   grid-row: 4/5;
   grid-column: 3/4;
-  background-color: var(--secondary-background-color);
   margin-top: 20px;
 }

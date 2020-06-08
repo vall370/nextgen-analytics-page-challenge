@@ -13,8 +13,8 @@ const SignupsChart = ({ totals }) => {
           <Pie
             data={data}
             dataKey="value"
-            innerRadius={100}
-            outerRadius={120}
+            innerRadius={85}
+            outerRadius={100}
             stroke={0}
             fill="#82ca9d"
           >

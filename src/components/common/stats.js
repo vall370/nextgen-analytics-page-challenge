@@ -72,10 +72,6 @@ const stats = {
         name: 'Dec\'19',
         amount: 4,
       },
-            {
-        name: 'Dec\'19',
-        amount: 4,
-      }
     ],
     gradient: 'gradientTwo'
   },

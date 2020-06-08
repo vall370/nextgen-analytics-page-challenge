@@ -15,8 +15,9 @@
 }
 
 .latestSignupsHeader h1 {
+  font-size: 1.5rem;
   font-weight: 400;
-  padding: 20px;
+  padding: 20px 0 0 20px;
 }
 
 .name {

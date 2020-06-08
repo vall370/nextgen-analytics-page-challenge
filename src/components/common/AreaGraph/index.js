@@ -9,8 +9,8 @@ const AreaGraph = ({ title, data, gradientType }) => {
       <div className='chart-title'>
         <p>{title}</p>
       </div>
-      <ResponsiveContainer width='100%' height={350}>
-        <AreaChart width={600} height={250} data={data}
+      <ResponsiveContainer width='100%' height={300}>
+        <AreaChart width={500} height={250} data={data}
           margin={{ top: 120, right: 0, left: 0, bottom: 0 }}
           cursor='pointer'
         >

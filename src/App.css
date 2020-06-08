@@ -1,0 +1,10 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: grid;
+
+  grid-template: 110px 100px 100px minmax(0, 1fr) 100px / 10% 100px 1.1fr 0.9fr 10%;
+}

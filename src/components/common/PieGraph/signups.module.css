@@ -1,0 +1,40 @@
+.totalSignups {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 250px;
+  background-color: var(--secondary-background-color);
+}
+
+.totalSignups * {
+  background-color: var(--secondary-background-color);
+}
+.table {
+  margin-right: 20px;
+}
+
+.value {
+  width: 100px;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+#tableTitle {
+  text-align: right;
+  padding-right: 1.9rem;
+  margin-bottom: 30px;
+}
+
+#tableTitle p {
+  color: var(--secondary-text-color);
+}
+
+#individuals {
+  border-right: 0.3rem solid var(--primary-color);
+}
+
+#companies {
+  border-right: 0.3rem solid var(--secondary-color);
+}

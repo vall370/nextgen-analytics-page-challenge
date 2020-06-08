@@ -1,0 +1,10 @@
+.navItem {
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  padding-right: 100px;
+  text-decoration: none;
+  transition: 0.5s color;
+/*   font-size: 1.1rem; */
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}

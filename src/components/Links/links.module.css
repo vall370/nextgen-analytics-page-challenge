@@ -1,0 +1,19 @@
+.links {
+  grid-row: 3/4;
+  grid-column: 3/5;
+  border-bottom: 3px solid #181922;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.links li {
+  display: inline-block;
+}

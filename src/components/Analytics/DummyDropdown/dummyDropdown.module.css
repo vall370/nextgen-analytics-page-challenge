@@ -1,0 +1,20 @@
+.dropdown {
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown p {
+  color: var(--secondary-text-color);
+}
+
+.caret {
+  margin-left: 15px;
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  
+  border-top: 15px solid var(--secondary-text-color);
+}
